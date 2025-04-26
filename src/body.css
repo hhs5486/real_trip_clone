@@ -45,8 +45,12 @@
     border-radius: 12px;
     color: gray;
 }
-
+.ad{
+    height: 180px;
+    width: 1060px; 
+}
 .img_advertisement_div{
+    position: fixed;
     padding-top: 30px;
     height: 150px;
     width: 1060px;
@@ -72,7 +76,8 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    right: 160px;
+    top: 40px;
+    right: 10px;
     align-content: center;
     background-color: rgba(20, 23, 25, 0.7);
     width: 30px;
@@ -80,10 +85,49 @@
 }
 
 
-.left_button{
+.left_button_div{
     position: absolute;
+    top: 85px;
+    left: -20px;
 }
 
-.right_button{
-    position: absolute;
+.left_button_div > button{
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: gray;
+    background-color: white;
 }
+
+.left_button_div > button > img {
+    position: absolute;
+    left:12px;
+    top: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+.right_button_div{
+    position: absolute;
+    top: 85px;
+    right : -20px;
+}
+
+.right_button_div > button{
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: gray;
+    background-color: white;
+}
+
+.right_button_div > button > img {
+    position: absolute;
+    left:12px;
+    top: 12px;
+    width: 15px;
+    height: 15px;
+}
+
