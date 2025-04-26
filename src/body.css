@@ -1,0 +1,89 @@
+.body{
+    margin: 0 auto;
+    max-width: 1060px;
+    width: 1060px;
+}
+
+.info{
+    height: 150px;
+    border-radius: 12px;
+    background-color: #f5f6f7;
+}
+
+.info_div{
+    align-content: center;
+    position: relative;
+    height: 50px;
+}
+
+.search_img{
+    position: absolute;
+    top: 16px;
+    padding-left: 30px;
+    width: 20px;
+}
+
+.search_span{
+    padding-left: 60px;
+    color: gray;
+}
+
+.search_span_people{
+    padding-left: 60px;
+    color: black;
+}
+
+.serch_button_div{
+    padding-top: 10px;
+    height: 48px;
+}
+
+.serch_button{
+    height: 48px;
+    width: 1060px;
+    border: 0;
+    border-radius: 12px;
+    color: gray;
+}
+
+.img_advertisement_div{
+    padding-top: 30px;
+    height: 150px;
+    width: 1060px;
+    border: 0;
+    border-radius: 12px;
+}
+
+.img_advertisement{
+    position: absolute;
+    height: 150px;
+    width: 1060px;
+    border: 0;
+    border-radius: 12px;
+}
+
+.number_span{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.number_span_div{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 160px;
+    align-content: center;
+    background-color: rgba(20, 23, 25, 0.7);
+    width: 30px;
+    border-radius: 16px;
+}
+
+
+.left_button{
+    position: absolute;
+}
+
+.right_button{
+    position: absolute;
+}
