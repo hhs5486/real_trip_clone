@@ -1,0 +1,84 @@
+.left_button_div{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+
+.left_button_div > button{
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: gray;
+    background-color: white;
+}
+
+.left_button_div > button > img {
+    position: absolute;
+    left:12px;
+    top: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+.right_button_div{
+    position: absolute;
+    top: 50%;
+    right : -20px;
+}
+
+.right_button_div > button{
+    height: 40px;
+    width: 40px;
+    border-width: 1px;
+    border-radius: 100%;
+    border-color: gray;
+    background-color: white;
+}
+
+.right_button_div > button > img {
+    position: absolute;
+    left:12px;
+    top: 12px;
+    width: 15px;
+    height: 15px;
+}
+
+.ad{
+    height: 180px;
+    width: 1060px; 
+}
+.img_advertisement_div{
+    position: fixed;
+    padding-top: 30px;
+    height: 150px;
+    width: 1060px;
+    border: 0;
+    border-radius: 12px;
+}
+
+.img_advertisement{
+    position: absolute;
+    height: 150px;
+    width: 1060px;
+    border: 0;
+    border-radius: 12px;
+}
+
+.number_span{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.number_span_div{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    align-content: center;
+    background-color: rgba(20, 23, 25, 0.7);
+    width: 30px;
+    border-radius: 16px;
+}

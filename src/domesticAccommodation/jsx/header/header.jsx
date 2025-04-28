@@ -1,4 +1,4 @@
-import "./header.css";
+import "../../css/header/header.css";
 
 function header() {
   return (
@@ -7,7 +7,7 @@ function header() {
         <div>
           <a type="button" href="홈으로">
             <img
-              src="src/assets/header/logo_mrt_v2_web.png"
+              src="src/domesticAccommodation/assets/header/logo_mrt_v2_web.png"
               className="header_img"
             ></img>
           </a>
@@ -19,7 +19,7 @@ function header() {
           ></input>
           <div className="header_search_img_div">
             <img
-              src="src/assets/header/ic_search_20x20_gray_500.png"
+              src="src/domesticAccommodation/assets/header/ic_search_20x20_gray_500.png"
               className="header_search_img"
             ></img>
           </div>
@@ -65,7 +65,7 @@ function header() {
         <div className="header_nav_bottom_div">
           <button className="header_nav_bottom_button">
             <span>더보기</span>
-            <img className= "bottom_button_img" src="src/assets/header/ic_arrow_down_md_gray_700.svg"></img>
+            <img className= "bottom_button_img" src="src/domesticAccommodation/assets/header/ic_arrow_down_md_gray_700.svg"></img>
           </button>
         </div>
       </nav>

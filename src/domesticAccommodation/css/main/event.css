@@ -1,0 +1,52 @@
+.event_div_main{
+   width: 1060px;
+   height: 100px; 
+}
+.event_div{
+    padding-top: 30px;
+    position: fixed;
+    width: 1060px;
+    height: 150px;
+}
+.event_div > .left_button_div{
+    left: 0;
+}
+
+.event_div > .right_button_div{
+    right: 0;
+}
+
+.event_div > .right_button_div > button >img{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    width: 15px;
+    height: 15px;
+}
+
+.event_div > .left_button_div > button >img{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 15px;
+    height: 15px;
+}
+
+.event_inf{
+    width: 132px;
+}
+
+.event_inf > img{
+    border-radius: 10px;
+    height: 150px;
+    width: 132;
+}
+
+.event_inf >h5{
+    margin-block-start: 0 ;
+    margin-block-end:10px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 132px;
+}

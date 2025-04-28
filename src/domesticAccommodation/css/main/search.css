@@ -1,0 +1,41 @@
+.info{
+    height: 150px;
+    border-radius: 12px;
+    background-color: #f5f6f7;
+}
+
+.info_div{
+    align-content: center;
+    position: relative;
+    height: 50px;
+}
+
+.search_img{
+    position: absolute;
+    top: 16px;
+    padding-left: 30px;
+    width: 20px;
+}
+
+.search_span{
+    padding-left: 60px;
+    color: gray;
+}
+
+.search_span_people{
+    padding-left: 60px;
+    color: black;
+}
+
+.serch_button_div{
+    padding-top: 10px;
+    height: 48px;
+}
+
+.serch_button{
+    height: 48px;
+    width: 1060px;
+    border: 0;
+    border-radius: 12px;
+    color: gray;
+}
